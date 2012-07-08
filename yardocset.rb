@@ -19,6 +19,8 @@ File.open("#{docset}.docset/Contents/Info.plist", 'w') do |file|
         <string>#{docset}</string>
         <key>DocSetPlatformFamily</key>
         <string>appledoc</string>
+        <key>isJavaScriptEnabled</key>
+        <true/>
       </dict>
     </plist>
   INFO
